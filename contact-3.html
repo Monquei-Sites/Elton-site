@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="zxx" class="is-preload">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<!-- favicon  -->
+	<link rel="shortcut icon" href="img/ui/E-branco.svg" type="image/x-icon">
+	<!-- swiper css -->
+	<link rel="stylesheet" href="css/plugins/swiper.min.css">
+	<!-- fancybox css -->
+	<link rel="stylesheet" href="css/plugins/fancybox.min.css">
+	<!-- floatlabels css -->
+
+	<!-- orabel css -->
+	<link rel="stylesheet" href="css/style.css">
+	<!-- page title -->
+	<title>Elton Moura - Contato</title>
+</head>
+
+<body>
+
+	<div class="orb-wrapper">
+		<!-- page loader -->
+		<div class="orb-loader-frame">
+			<div class="orb-loader">
+				<div class="orb-deco-1">
+					<div class="orb-prog"></div>
+				</div>
+				<div class="orb-deco-2">
+					<div class="orb-spiner"></div>
+				</div>
+			</div>
+		</div>
+		<!-- page loader end -->
+		<div id="orb-dynamic-content" class="transition-fade">
+
+			<div class="orb-page-frame orb-contact-3">
+
+				<div class="orb-top-bar-frame">
+					<div class="orb-content orb-top-bar">
+						<a href="index.html" class="orb-logo-frame">
+							<!-- image logo <img src="img/ui/logo.svg" alt="Orabel">-->
+							<!-- svg logo -->
+							<img src="img/ui/E-branco.svg" alt="Elton">
+						</a>
+						<div class="orb-right-side">
+							<div class="orb-menu-frame">
+								<nav>
+									<ul class="orb-menu">
+										<li class="orb-has-children ">
+											<a href="index.html">Home</a>
+										</li>
+										<li class="orb-has-children ">
+											<a href="about-1.html">Sobre</a>
+										</li>
+										<li class="orb-has-children ">
+											<a href="portfolio-2.html">Portfolio</a>
+										</li>
+										<li class="orb-has-children orb-current">
+											<a href="contact-3.html">Contato</a>
+										</li>
+									</ul>
+								</nav>
+							</div>
+						</div>
+						<div class="orb-menu-btn">
+							<span></span>
+						</div>
+					</div>
+				</div>
+
+				<div class="orb-content">
+
+					<div class="orb-grid orb-sm-reverse">
+						<div class="orb-g-60 orb-sm-100">
+							<div class="orb-form-frame">
+								<div class="orb-form-title">
+									<h2>Quer deixar sua presença no mundo?<br> Vamos contar essa história juntos! Me envie um email ou<br><button href="https://api.whatsapp.com/send/?phone=5512991807596&text=Ol%C3%A1%21+Fiquei+muito+interessado+e+quero+saber+mais%21&type=phone_number&app_absent=0" target="_blank" class="orb-whatsapp" onclick="novaAba()" style="background-color: transparent; border: none;">Clique e me chame no<img src="img/ui/whatsapp.svg" alt="Instagram" style="width: 30px;">Whatsapp</button></h2>
+									
+									<div class="orb-line"></div>
+								</div>
+								<div class="orb-form-content">
+									<form method="POST" id="form" action="https://formsubmit.co/produtor.elton.m@gmail.com">
+										<div class="orb-grid orb-padding-grid">
+											<div class="orb-g-50 orb-sm-100">
+												<div class="orb-group-input">
+													<input id="name" name="name" type="text" placeholder="Qual seu nome?" data-parsley-pattern="^[a-zA-Z\s.]+$" required />
+												</div>
+											</div>
+											<div class="orb-g-50 orb-sm-100">
+												<div class="orb-group-input">
+													<input id="email" name="email" type="email" placeholder="Qual seu email?" required />
+												</div>
+											</div>
+											<div class="orb-g-100">
+												<div class="orb-group-input">
+													<textarea id="message" name="message" placeholder="Do que vamos conversar?" data-parsley-pattern="^[a-zA-Z0-9\s.:,!?]+$" required></textarea>
+												</div>
+											</div>
+										</div>
+										<div class="orb-form-bottom">
+											
+											<button class="orb-submit-btn" id="submit" type="submit" onclick="send()">
+												<span>Enviar mensagem</span>
+												<img src="img/ui/arrow-1.svg" alt="arrow" class="orb-arrow">
+											</button>
+											<input type="hidden" name="_subject" value="Novo contato!">
+											<input type="text" name="_honey" style="display:none">
+											<input type="hidden" name="_captcha" value="false">
+										</div>
+									</form>
+								</div>
+							</div>
+						</div>
+						<div class="orb-g-40 orb-sm-100">
+							<div class="rb-object-frame">
+								<div class="orb-photo-frame orb-obj-1">
+									<img src="img/photo/about/camera.png" alt="photo">
+								</div>
+								<div class="orb-deco-1"></div>
+								<div class="orb-deco-2"></div>
+								<a href="https://www.instagram.com/eltinmoura/" target="_blank" data-no-swup class="orb-instagram">
+									<span>Veja o meu</span><img src="img/ui/instagram-1.svg" alt="Instagram"><span>Instagram</span>
+								</a>
+							
+							</div>
+						</div>
+						
+					</div>
+				</div>
+
+			</div>
+
+			<div class="orb-big-menu-frame">
+
+				<div class="orb-big-menu orb-big-menu-2">
+					<div class="orb-grid">
+						<div class="orb-g-33 orb-lg-50 orb-sm-100">
+							<div class="orb-menu-frame orb-fs-menu">
+								<nav>
+									<ul class="orb-menu">
+										<li class="orb-has-children ">
+											<a href="index.html" data-no-swup>Home</a>								
+										</li>
+										<li class="orb-has-children ">
+											<a href="about-1.html" data-no-swup>Sobre</a>
+										</li>
+										<li class="orb-has-children">
+											<a href="portfolio-2.html" data-no-swup>Portfolio</a>
+										
+										</li>
+										<li class="orb-has-children orb-current">
+											<a href="contact-3.html" data-no-swup>Contato</a>
+										</li>
+									</ul>
+								</nav>
+							</div>
+						</div>
+						<div class="orb-g-33 orb-lg-50 orb-sm-100">
+							<div class="rb-object-frame">
+								<div class="orb-photo-frame orb-obj-1">
+									<img src="img/photo/about/camera.png" alt="photo">
+								</div>
+							</div>
+						</div>
+						<div class="orb-g-33 orb-lg-50 orb-sm-100">
+							<div class="orb-menu-text-frame">
+								<div class="orb-menu-text">
+									
+								</div>
+								<a href="https://www.instagram.com/eltinmoura/" target="_blank" class="orb-instagram" data-no-swup>
+									<span>Meu Instagram</span>
+									<img src="img/ui/instagram-2.svg" alt="Instagram">
+								</a>
+								<div class="monquei"  style="margin-top: 20px;">
+										<a href="https://www.monqueisites.com.br/" style="font-size: 11px; color: black; font-family: 'Montserrat';">Feito com muito ❤️ pela Monquei -<br> A equipe n°1 de Sites 🐵</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+			</div>
+
+		</div>
+	</div>
+	<!-- jquery js -->
+	<script src="js/plugins/jquery.min.js"></script>
+	<!-- fancybox js -->
+	<script src="js/plugins/fancybox.min.js"></script>
+	<!-- swup js -->
+	<script src="js/plugins/swup.min.js"></script>
+	<!-- swiper js -->
+	<script src="js/plugins/swiper.min.js"></script>
+	<!-- parsley js -->
+	<script src="js/plugins/parsley.min.js"></script><!-- parsley js -->
+	<script src="js/plugins/parsley.min.js"></script>
+	<script src="js/plugins/parsley.min.js"></script>
+	<!-- orabel js -->
+	<script src="js/main.js"></script>
+
+</body>
+
+</html>
