@@ -201,7 +201,7 @@ ul li {
 .orb-top-bar-frame .orb-top-bar {
 	position: relative;
 	padding: 0 80px;
-	height: 120px;
+	height: 75px;
 	width: 100%;
 	display: -webkit-box;
 	display: -ms-flexbox;
@@ -2063,7 +2063,7 @@ label.cbx {
 
 	.orb-home-2 .orb-content .orb-slide-caption .orb-main-title .h1, .orb-home-2 .orb-content .orb-slide-caption .orb-main-title h1 {
 		margin-left: 0;
-		font-size: 42px;
+		font-size: 32px;
 	}
 
 	.orb-home-2 .orb-content .orb-slide-caption .orb-button-and-descr {
@@ -2095,6 +2095,7 @@ label.cbx {
 
 	.orb-home-2 .orb-content .orb-slide-caption .orb-button-and-descr .orb-description span {
 		width: 100%;
+		font-size: 13px;
 		padding: 0;
 	}
 
@@ -3700,7 +3701,7 @@ label.cbx {
 	left: 80px;
 	font-style: normal;
 	font-weight: 700;
-	font-size: 23px;
+	font-size: 20px;
 	font-family: 'Montserrat', sans-serif;
 	color: black;
 }
@@ -3834,7 +3835,7 @@ label.cbx {
 }
 
 .orb-contact-1 .orb-content .orb-form-frame .orb-form-content .orb-form-title {
-	font-size: 36px;
+	font-size: 26px;
 	margin-bottom: 60px;
 }
 
@@ -3875,7 +3876,7 @@ label.cbx {
 
 @media (max-width: 1200px) {
 	.orb-contact-1 .orb-content .rb-object-frame .orb-page-title {
-		font-size: 36px;
+		font-size: 26px;
 	}
 
 	.orb-contact-1 .orb-content .orb-form-frame .orb-form-content .orb-form-title br {
@@ -3893,7 +3894,7 @@ label.cbx {
 	}
 
 	.orb-contact-1 .orb-content .orb-form-frame .orb-form-content .orb-form-title {
-		font-size: 28px;
+		font-size: 20px;
 	}
 
 	.orb-contact-1 .orb-content .orb-form-frame .orb-form-content .orb-form-bottom {
@@ -3931,9 +3932,9 @@ label.cbx {
 		height: auto;
 	}
 
-	.orb-contact-1 .orb-content .rb-object-frame .orb-page-title {
+	.orb-contact-1 .orb-content .rb-object-frame .orb-page-title  h2{
 		background-color: #F1EBE5;
-		font-size: 24px;
+		font-size: 14px;
 		bottom: 0;
 		left: auto;
 		right: 0;
@@ -3957,7 +3958,7 @@ label.cbx {
 
 	.orb-contact-1 .orb-content .orb-form-frame .orb-form-content .orb-form-title {
 		margin-bottom: 40px;
-		font-size: 18px;
+		font-size: 10px;
 	}
 }
 
@@ -4349,7 +4350,7 @@ label.cbx {
 	padding: 0 80px;
 	font-style: normal;
 	font-weight: 100;
-	font-size: 16px;
+	font-size: 12px;
 }
 
 .orb-contact-3 .orb-content .orb-form-frame .orb-form-content {
@@ -4528,7 +4529,7 @@ label.cbx {
 
 .orb-about-1 .orb-content .orb-about-frame .orb-about-text {
 	font-family: 'Montserrat', sans-serif;
-	padding-top: 80px;
+	padding-top: 20px;
 	color: #FFF;
 	padding-right: 80px;
 }
